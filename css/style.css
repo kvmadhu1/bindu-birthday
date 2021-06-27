@@ -1,0 +1,532 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: sans-serif;
+}
+.header {
+	background-color: cornflowerblue;
+	width: 100%;
+	height: 20%;
+	animation: mymove 5s infinite;
+	}
+	
+	@keyframes mymove {
+  from {background-color: cornflowerblue;}
+  to {background-color: #6666ff;}
+}
+
+.header h1 {
+	background-color: none;
+	text-align: center;
+    font-family: Lucida Console;
+	color:white;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size:	40px;
+}
+sub {
+  vertical-align: sub;
+  font-size: 10px;
+  float: right;
+  padding-right: 100px;
+}
+
+.logo img{
+	width: 10%;
+	height: 100%;
+	float: left;
+	
+}
+
+
+
+.menu {
+	display:flex;
+	margin: 0px;
+	background: linear-gradient(to right,#db1bf6,#19d7f8);
+	width: 100%;
+	height: 10%;
+	text-align:left;
+	padding-bottom: 10px;	
+}
+
+.menu ul{
+	
+		
+}
+
+.menu ul li{
+	list-style: none;
+	margin: 0 0px;
+	cursor: pointer;
+	display:inline-flex;
+	padding: 25px; 
+	text-align: left;
+	
+}
+
+.dropdown {
+ 
+  
+  
+}
+
+
+.dropbtn { 
+  /*color: #19dafa;*/
+  color: #ffffff;  
+  padding: 0px; 
+  cursor: pointer;  
+  list-style: none;
+  font-size: 30px;
+  background: none;
+  border:none;
+  
+}
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  /*background-color: #f9f9f9;*/
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+}
+
+.dropdown-content a {
+  color: #ffffff;
+  padding: 5px 10px;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  background: linear-gradient(to right,#db1bf6,#19d7f8);
+  
+}
+
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+	
+	}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  z-index: 1;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #13c3e2;
+}
+
+
+.container{
+	width: 100%;
+	height: 50%;
+	background: #42455a;
+}
+
+/* fa-caret-down */
+
+
+
+
+.signup-btn{
+
+	position: absolute;
+	text-decoration: none;
+	color: #fff;
+	border: 2px solid transparent;
+	border-radius: 20px;
+	background-image:linear-gradient(#42455a,#42455a),radial-gradient(circle at top left,#fd00da,#19d7f8);
+	background-origin: border-box;
+	background-clip: content-box,border-box;
+}
+.signup-btn  span {
+	display: block;
+	padding: 0px 0px;
+}
+.banner {
+	width:80%;
+	height: 70%;
+	top:25%;
+	left: 130px;
+	position: relative;
+	color: red;
+}
+.app-text {
+	width: 50%;
+	float: left;
+}
+.app-text h1{
+	font-size: 43px;
+	width: 640px;
+	position: relative;
+	margin-left: 40px;
+}
+.app-text p{
+	width: 650px;
+	font-size: 15px;
+	margin: 30px 0 30px 40px;
+	line-height: 25px;
+	color: #919191;
+}
+.app-picture{
+	width: 50%;
+	float: right;
+}
+.app-picture img{
+	width: 50%;
+	margin-top: -20px;
+	padding-left: 50px;
+}
+.play-btn {
+	margin-left:40px;
+	display: inline-flex;	
+}
+.play-btn-inner {
+	height: 50px;
+	width: 50px;
+	border: 2px solid transparent;
+	border-radius: 50%;
+	background-image:linear-gradient(#42455a,#42455a),radial-gradient(circle at top left,#fd00da,#19d7f8);
+	background-origin: border-box;
+	background-clip: content-box,border-box;
+	text-align:center;
+}
+.play-btn-inner .fa{
+	padding: 18px 0;
+	font-size: 13px;
+	cursor: pointer;
+}
+small {
+	margin: auto 20px;
+	cursor: pointer;
+	font-size: 12px;
+	color: #19dafa;
+	letter-spacing: 3px;
+}
+.quick-links{
+	left: 0;
+	bottom:0;
+	position: relative;
+	background: linear-gradient(to right,#db1bf6,#19d7f8)
+}
+.quick-links ul{
+	display: inline-flex;
+	margin: 30px auto;
+	text-align: center;
+}
+.quick-links ul li{
+	list-style: none;
+	margin: 0 50px;
+	cursor: pointer;
+}
+.quick-links ul li .fa{
+	font-size: 25px;
+	color: #fff;
+}
+.quick-links ul li p{
+	margin-top: 15px;
+	font-size: 10px;
+	color: #fff;
+}
+.social-icons{
+	right: 72px;
+	bottom: 35px;
+	position: absolute;
+}
+.social-icons ul li {
+	list-style: none;
+	margin-top: 15px;
+	text-align: center;	
+}
+.social-icons ul li a {
+	color: #999;
+	border-radius: 50%;
+	border: 1px solid #999;
+	padding: 5px;
+	display: block;
+}
+
+
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #94c55ef1;
+  height: 15%;
+  width: 100%;
+
+}
+
+/*slide show row*/
+
+
+/* Slides */
+.mySlides {
+  display: none;
+   text-align: center;
+  
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  margin-top: 0px;
+  padding: 0px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 2px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+ padding-top: 20px;
+   background-color: none;
+	position:relative;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 0px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-flex;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {
+	color: cornflowerblue;
+	
+
+}
+
+
+
+/* footer style */
+.footer {
+	background-color: none;
+	width: 100%;
+	height: 10%;
+	padding-bottom:50px;
+	}
+
+.footer address{
+	background-color: #cddc39;
+	text-align: center;
+	color:Blue;
+	font-size:	20px;
+	position: relative;
+}
+
+.footer a{	
+	color:#008CBA;
+}
+
+.footer-copyright{	
+	color:red;
+	text-align: center;
+	
+}
+
+/*
+.dropdown, .dropup {
+    position: relative;
+}
+
+
+.language_selection_btn button {
+    border: 0;
+    border-top-color: initial;
+    border-top-style: initial;
+    border-top-width: 0px;
+    border-right-color: initial;
+    border-right-style: initial;
+    border-right-width: 0px;
+    border-bottom-color: initial;
+    border-bottom-style: initial;
+    border-bottom-width: 0px;
+    border-left-color: initial;
+    border-left-style: initial;
+    border-left-width: 0px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-radius: 0;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: #0e6c5a !important;
+    color: #fff251 !important;
+    font-size: 12px !important;
+    padding: 6px 12px;
+    padding-top: 6px;
+    padding-right: 12px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+}
+
+
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid\9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+*/
+
+#message {
+    background: #8adacb87;
+    color: #7f1ee9;
+    font-weight: bold;
+    padding: 7px;
+    display: block;
+    margin: 0px 0px;
+}
+
+.wpanel_marquee {
+    box-sizing: border-box;
+    color: #39729f;
+    font-weight: bold;
+    margin: 12px 0 0;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 40px;
+}
+.wpanel_marquee p {
+    /* animation: 30s linear 0s normal none infinite running marquee; */
+    animation: marquee 30s linear infinite;
+    display: inline-block;
+    padding-left: 100%;
+}
+p {
+    margin: 0 0 0px;
+}
+@keyframes marquee {
+	0% {
+		transform: translate(0, 0);
+	}
+	100% {
+		transform: translate(-100%, 0);
+	}
+}
+.wpanel_marquee p:hover {
+    animation-play-state: paused;
+}
+#wpanel_users marquee {
+    font-weight: bold;
+}
+/* Marquee Ends */
+
+/*start group start*/
+.group {
+
+	height: 50%;
+}
+
+.group img{
+	border: 1px solid #ddd;
+	border-radius: 50%;
+	padding: 5px;
+	width: 296px;
+	height: 295px;
+}
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+/*group logo end*/
+
+.fa{
+	font-size:10px;
+}
+
+/*
+
+@media screen and(max-width: 700px) {
+	
+	.header {
+	background-color: cornflowerblue;
+	width: 100%;
+	height: 10%;
+	animation: mymove 5s infinite;
+	}
+	
+	.header h1 {
+	background-color: none;
+	text-align: center;
+    font-family: Lucida Console;
+	color:white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size:	5px;
+}
+sub {
+  vertical-align: sub;
+  font-size: 5px;
+    
+}
+.logo img{
+	width: 20%;
+	height: 100%;	
+}
+.menu {
+	display:flex;
+	flex-direction: column;
+	
+	width: 100%;
+	height: auto;
+	text-align:left;
+	padding-bottom: 10px;	
+}
+
+.menu ul li{
+ flex-direction: column;
+}
+}
+
+*/
