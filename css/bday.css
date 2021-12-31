@@ -1,0 +1,132 @@
+body{
+    background-color: plum;
+    font-family: monospace;
+    
+    
+}
+
+.back{
+  margin: auto;
+  padding: auto;
+}
+
+.flex-container{
+    display: flex;
+    display: inline-flex;  
+   flex-direction: row;  
+   justify-content: center;
+   
+   
+}
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin: 20px;
+    
+    padding: 20px;
+  
+
+    font-size: 30px;
+  }
+
+  .wish1 img{
+      opacity: 0.5;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 400px;
+  height: 800px;
+  object-fit: cover;
+  }
+
+  .wish2 img{
+    opacity: 0.5;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+  height: 800px;
+  object-fit: cover;
+   
+}
+
+.wish3 img{
+    opacity: 0.5;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+  height: 800px;
+  object-fit: cover;
+
+    
+}
+
+.wish1{   
+    position: relative;
+    width: 25%;
+    opacity: 1;
+    animation: example 10s infinite;
+    animation-delay: 2s;
+    padding: 10px;
+    color: rgba(255, 175, 71, 0.664);
+    font-family:cursive;
+    font-size: 50px; 
+}
+
+.wish2{   
+    position: relative;
+    width: 25%;
+    animation: example 10s infinite;
+    animation-delay: 4s;    
+    padding: 10px;
+   color: tomato;
+   font-family:cursive;
+   font-size: 50px; 
+    
+    
+}
+
+.wish3{   
+    position: relative;
+    width: 25%;
+    opacity: 1;
+    animation: example 10s infinite;
+    animation-delay: 6s;
+    padding: 10px;  
+    color: rgb(70, 14, 223); 
+    font-family:cursive;
+    font-size: 50px; 
+}
+
+@keyframes example {
+    0%   {background-color: palegoldenrod;}
+    25%  {background-color: yellow;}
+    50%  {background-color: rgb(247, 0, 255);}
+    100% {background-color: green;}
+  }
+
+  footer {
+    text-align: center;
+    padding: 0px;
+    background-color: rgb(233, 122, 196);
+    color: rgb(129, 17, 221);
+    width: 100%;
+    font-size: 50px; 
+    margin-left: auto;
+    opacity: 0.8;
+    padding: 10px; 
+  }
+h3{
+    color: rgba(243, 10, 49, 0.534);
+}
+  
+h1{
+    color: rgba(243, 10, 49, 0.534);
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+  h2{
+    color: #f1f1f1;
+  }
